@@ -1,0 +1,17 @@
+(module Pokeys56U (layer F.Cu) (tedit 5F6F546C)
+  (fp_text reference REF** (at 0 2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Pokeys56U (at 0 -2) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -22 -32) (end 23 -32) (layer F.Fab) (width 0.12))
+  (fp_line (start 23 -32) (end 23 31) (layer F.Fab) (width 0.12))
+  (fp_line (start 23 31) (end -22 31) (layer F.Fab) (width 0.12))
+  (fp_line (start -22 31) (end -22 -32) (layer F.Fab) (width 0.12))
+  (model ${KIPRJMOD}/../lib/PoKeys56U.stp
+    (offset (xyz -22 31.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)
